@@ -51,13 +51,13 @@ console.log('pets', pets);
 const buildPetCards = (petsArray) => {
     let domString = '';
     for(let i = 0; i < petsArray.length; i++){
-        domString += '<div class= "cards"><div class = "card">';
-        domString += `<img class="img" src= "${petsArray[i].imageUrl}" alt= "A picture of a ${pets[i].type}">`;
-        domString += `<h3>${petsArray[i].name}</h3>`;
-        domString += `<p class= "center">Name: ${petsArray[i].name}</p>`;
-        domString += `<p>Color: ${petsArray[i].color}</p>`;
-        domString += `<p>Type: ${petsArray[i].type}</p>`;
-        domString += `<p>Special Skills: ${petsArray[i].specialSkill}</p></div></div>`;
+        domString +=    `<div class = 'card'><img class= 'img' src= '${petsArray[i].imageUrl}' alt= 'A picture of a ${pets[i].type}'>`;
+        domString +=        `<h3>${petsArray[i].name}</h3>`;
+        domString +=        `<p class= 'center'>Name: ${petsArray[i].name}</p>`;
+        domString +=        `<p>Color: ${petsArray[i].color}</p>`;
+        domString +=        `<p>Type: ${petsArray[i].type}</p>`;
+        domString +=        `<p>Special Skills: ${petsArray[i].specialSkill}</p>`;
+        domString +=    `</div>`;
     }
 printToDom('petType', domString);
 };

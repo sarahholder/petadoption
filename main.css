@@ -2,27 +2,25 @@ body{
         background-color: lightblue;
         font-family: Helvetica, sans-serif;
         margin: 0px;
-        padding: 0;
-       
+        padding: 0;     
 }
 
-
-.pets{
+#petType{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     height: auto; 
+    
 }
 
-.cards{
+.card{
+    
     background-color: white;
-    flex: 0 1 28%;
+    width: 28%;
     box-shadow: 5px 5px 5px 5px gray;
+    margin-left: 2px;
+    margin-right: 2px;
     margin-bottom: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-    width:30%;
-
 }
 .img{
     min-width: 100%;
@@ -33,6 +31,8 @@ h3{
     text-align: center;
     text-shadow: 3px 3px 3px goldenrod;
     color: red;
-
 }
 
+p{
+    margin: 15px 5px;
+}
