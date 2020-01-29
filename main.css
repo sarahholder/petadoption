@@ -3,39 +3,25 @@ body{
         font-family: Helvetica, sans-serif;
         margin: 0px;
         padding: 0;
-}
-
-.header-img{
-    background: url(https://campfire.org/wp-content/uploads/2016/08/e6bffcd2e194a6b1b8317b8f5126f7a409e150d6_Home-slider-2_v2.jpg) 100%;
-    align-content: center;
-    min-height: 500px;
-    text-align: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    text-shadow: 100em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    align-content: center;
-
+       
 }
 
 
-#petAdoption{
-    display:flex;
+.pets{
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: auto;
+    height: auto; 
 }
-.pets{
+
+.cards{
     background-color: white;
     flex: 0 1 28%;
     box-shadow: 5px 5px 5px 5px gray;
     margin-bottom: 50px;
     margin-left: 10px;
     margin-right: 10px;
-    min-width: 300px;
+    width:30%;
 
 }
 .img{
@@ -43,10 +29,10 @@ body{
     max-height: 100%;
     max-width: 100%;
 }
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    align-content: center;
+h3{
+    text-align: center;
+    text-shadow: 3px 3px 3px goldenrod;
+    color: red;
+
 }
+
